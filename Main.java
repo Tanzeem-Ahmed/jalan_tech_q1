@@ -12,30 +12,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    // BruteForce Approach time complexity O(n * n) and space complexity is constant
-    // public static int[] subarraySumZero(int arr[]) {
-    // int res[] = new int[2];
-    // // filling the array with -1 if res is not found
-    // Arrays.fill(res, -1);
-
-    // for (int i = 0; i < arr.length; i++) {
-    // // initialising sum with 0 and storing res[0] as starting index
-    // int sum = 0;
-    // res[0] = i;
-    // for (int j = i; j < arr.length; j++) {
-    // // adding the elements to get the sum
-    // sum += arr[j];
-    // // if sum is equal to 0 the put res[1] as jth index and return the res array
-    // if (sum == 0) {
-    // res[1] = j;
-    // return res;
-    // }
-    // }
-    // }
-    // return res;
-    // }
-
-    // Optimised Approach time complexity - O(n), space complexity - O(n) since we
+    // time complexity - O(n), space complexity - O(n) since we
     // are using HashMap data structure
     public static int[] subarraySumZero(int arr[]) {
         int res[] = new int[2];
